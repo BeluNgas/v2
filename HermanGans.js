@@ -16,80 +16,80 @@ nocache('../message/group.js', module => console.log(color('[WATCH]', 'yellow'),
 
 const starts = async (dha = new WAConnection()) => {
 	dha.logger.level = 'warn'
-	console.log(color(figlet.textSync('herman', {
+	console.log(color(figlet.textSync('Alan Botz', {
 		font: 'Standard',
 		horizontalLayout: 'default',
 		vertivalLayout: 'default',
 		width: 80,
 		whitespaceBreak: false
 	}), 'cyan'))
-	console.log(color('[ GO 1K SUBSCRIBE ]\n', 'yellow'), color('Subscribe Herman Chanel', 'yellow'))
+	console.log(color('[ GO 5K SUBSCRIBE ]\n', 'yellow'), color('Subscribe YT ALAN BOTZ', 'yellow'))
 	console.log(color('GA SUBSCRIBE BAKAL EROR:V', 'pink'))
-	console.log(color('\n\n[ FOLOW IG @cal_me_herman', 'red'))
-	dha.browserDescription = ["herman", "Chrome", "3.0.0"];
+	console.log(color('\n\n[ FOLOW IG @jb_alanganz', 'red'))
+	dha.browserDescription = ["Alan", "Chrome", "3.0.0"];
 
 	// Menunggu QR
 	dha.on('qr', () => {
-		console.log(color('[', 'pink'), color('!', 'red'), color(']', 'pink'), color('SCAN KODE NYA KODE AKAN ANGUS DALAM WAKTU 20DETIK!'))
+		console.log(color('[', 'pink'), color('!', 'red'), color(']', 'pink'), color('SCAN KODE QR BY ALAN BOTZ 20CSECOND!'))
 	})
 
 	// Menghubungkan
 	fs.existsSync(`./${setting.sessionName}.json`) && dha.loadAuthInfo(`./${setting.sessionName}.json`)
 	dha.on('connecting', () => {
-		console.log(color('[ Herman Chanel ]', 'yellow'), color('PROSES NYAMBUNG...'));
+		console.log(color('[ ALAN BOTZl ]', 'yellow'), color('PROSES NYAMBUNG...'));
 	})
 const spinner = { 
   "interval": 120,
   "frames": [
-    "H",
-    "HE",
-    "HER",
-    "HERM",
-    "HERMAN",
-    "HERMAN C",
-    "HERMAN CH",
-    "HERMAN CHA",
-    "HERMAN CHAN",
-    "HERMAN CHANE",
-    "HERMAN CHANEL",
-    "HERMAN CHANEL J",
-    "HERMAN CHANEL JA",
-    "HERMAN CHANEL JAN",
-    "HERMAN CHANEL JAN L",
-    "HERMAN CHANEL JAN LU",
-    "HERMAN CHANEL JAN LUP",
-    "HERMAN CHANEL JAN LUPA",
-    "HERMAN CHANEL JAN LUPA S",
-    "HERMAN CHANEL JAN LUPA SU",
-    "HERMAN CHANEL JAN LUPA SUB",
-    "HERMAN CHANEL JAN LUPA SUBS",
-    "HERMAN CHANEL JAN LUPA SUBSC",
-    "HERMAN CHANEL JAN LUPA SUBSCR",
-    "HERMAN CHANEL JAN LUPA SUBSCRI",
-    "HERMAN CHANEL JAN LUPA SUBSCRIB",
-    "HERMAN CHANEL JAN LUPA SUBSCRIBE",
-    "HERMAN CHANEL JAN LUPA SUBSCRIBE G",
-    "HERMAN CHANEL JAN LUPA SUBSCRIBE GO",
-    "HERMAN CHANEL JAN LUPA SUBSCRIBE GO 1",
-    "HERMAN CHANEL JAN LUPA SUBSCRIBE GO 1K",
-    "HERMAN CHANEL JAN LUPA SUBSCRIBE GO 1K S",
-    "HERMAN CHANEL JAN LUPA SUBSCRIBE GO 1K SU",
-    "HERMAN CHANEL JAN LUPA SUBSCRIBE GO 1K SUB",
-    "HERMAN CHANEL JAN LUPA SUBSCRIBE GO 1K SUBS",
-    "HERMAN CHANEL JAN LUPA SUBSCRIBE GO 1K SUBS N",
-    "HERMAN CHANEL JAN LUPA SUBSCRIBE GO 1K SUBS NG",
-    "HERMAN CHANEL JAN LUPA SUBSCRIBE GO 1K SUBS NGA",
-    "HERMAN CHANEL JAN LUPA SUBSCRIBE GO 1K SUBS NGAB",
-    "HERMAN CHANEL JAN LUPA SUBSCRIBE GO 1K SUBS NGAB B",
-    "HERMAN CHANEL JAN LUPA SUBSCRIBE GO 1K SUBS NGAB BS",
-    "HERMAN CHANEL JAN LUPA SUBSCRIBE GO 1K SUBS NGAB BSA",
-    "HERMAN CHANEL JAN LUPA SUBSCRIBE GO 1K SUBS NGAB BSA L",
-    "HERMAN CHANEL JAN LUPA SUBSCRIBE GO 1K SUBS NGAB BSA LH"
+    "Y",
+    "YO",
+    "YOU",
+    "YOUT",
+    "YOUTUB",
+    "YOUTUBE A",
+    "YOUTUBE AL",
+    "YOUTUBE ALAN",
+    "YOUTUBE ALAN BO",
+    "YOUTUBE ALAN BOT",
+    "YOUTUBE ALAN BOTZ",
+    "YOUTUBE ALAN BOTZ J",
+    "YOUTUBE ALAN BOTZ JA",
+    "YOUTUBE ALAN BOTZ JAN",
+    "YOUTUBE ALAN BOTZ JAN L",
+    "YOUTUBE ALAN BOTZ JAN LU",
+    "YOUTUBE ALAN BOTZ JAN LUP",
+    "YOUTUBE ALAN BOTZ JAN LUPA",
+    "YOUTUBE ALAN BOTZ JAN LUPA S",
+    "YOUTUBE ALAN BOTZ JAN LUPA SU",
+    "YOUTUBE ALAN BOTZ JAN LUPA SUB",
+    "YOUTUBE ALAN BOTZ JAN LUPA SUBS",
+    "YOUTUBE ALAN BOTZ JAN LUPA SUBSC",
+    "YOUTUBE ALAN BOTZ JAN LUPA SUBSCR",
+    "YOUTUBE ALAN BOTZ JAN LUPA SUBSCRI",
+    "YOUTUBE ALAN BOTZ JAN LUPA SUBSCRIB",
+    "YOUTUBE ALAN BOTZ JAN LUPA SUBSCRIBE",
+    "YOUTUBE ALAN BOTZ JAN LUPA SUBSCRIBE G",
+    "YOUTUBE ALAN BOTZ JAN LUPA SUBSCRIBE GO",
+    "YOUTUBE ALAN BOTZ JAN LUPA SUBSCRIBE GO 5",
+    "YOUTUBE ALAN BOTZ JAN LUPA SUBSCRIBE GO 5K",
+    "YOUTUBE ALAN BOTZ JAN LUPA SUBSCRIBE GO 5K S",
+    "YOUTUBE ALAN BOTZ JAN LUPA SUBSCRIBE GO 5K SU",
+    "YOUTUBE ALAN BOTZ JAN LUPA SUBSCRIBE GO 5K SUB",
+    "YOUTUBE ALAN BOTZ JAN LUPA SUBSCRIBE GO 5K SUBS",
+    "YOUTUBE ALAN BOTZ JAN LUPA SUBSCRIBE GO 5K SUBS N",
+    "YOUTUBE ALAN BOTZ JAN LUPA SUBSCRIBE GO 5K SUBS NG",
+    "YOUTUBE ALAN BOTZ JAN LUPA SUBSCRIBE GO 5K SUBS NGA",
+    "YOUTUBE ALAN BOTZ JAN LUPA SUBSCRIBE GO 5K SUBS NGAB",
+    "YOUTUBE ALAN BOTZ JAN LUPA SUBSCRIBE GO 5K SUBS NGAB B",
+    "YOUTUBE ALAN BOTZ JAN LUPA SUBSCRIBE GO 5K SUBS NGAB BS",
+    "YOUTUBE ALAN BOTZ JAN LUPA SUBSCRIBE GO 5K SUBS NGAB BSA",
+    "YOUTUBE ALAN BOTZ JAN LUPA SUBSCRIBE GO 5K SUBS NGAB BSA L",
+    "YOUTUBE ALAN BOTZ JAN LUPA SUBSCRIBE GO 5K SUBS NGAB BSA LH"
   ]}
 
 	//connect
 	dha.on('open', () => {
-		console.log(color('[ Herman Chanel ]', 'yellow'), color('BOT SUDAH AKTIF'));
+		console.log(color('[ Alan Botz ]', 'yellow'), color('BOT SUDAH AKTIF'));
 	})
 
 	// session

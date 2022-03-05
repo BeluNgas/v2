@@ -3463,16 +3463,13 @@ break
               latensie = speed() - timestampe
               total = math(`${groups.length}*${privat.length}`)
 teks = `\`\`\`BOT STATISTICS\`\`\`
-┌──── “ 💭 „
 \`\`\`き⃟🦈 Group Chats : ${groups.length}\`\`\`
 \`\`\`き⃟🦈 Private Chats : ${privat.length}\`\`\`
 \`\`\`き⃟🦈 Total Chats : ${totalChat.length}\`\`\`
 \`\`\`き⃟🦈 Speed : ${latensie.toFixed(4)} _Second_\`\`\`
 \`\`\`き⃟🦈 Active Time : ${kyun(uptime)}\`\`\`
-└➤ BellBoTz 。✑ ─────┐`
 
 \`\`\`PHONE STATISTICS\`\`\`
-┌───────── ·﻿ ﻿ ﻿· ﻿ ·﻿ ﻿ ﻿· ♡
 \`\`\`き⃟🦈 Baterai : ${baterai}% ${charger}\`\`\`
 \`\`\`き⃟🦈 Ram Usage : ${ram2}\`\`\`
 \`\`\`き⃟🦈 Platform : ${os.platform()}\`\`\`
@@ -3483,7 +3480,6 @@ teks = `\`\`\`BOT STATISTICS\`\`\`
 \`\`\`き⃟🦈 Device Manufacturer: ${dha.user.phone.device_manufacturer}\`\`\`
 \`\`\`き⃟🦈 Device Model: ${dha.user.phone.device_model}\`\`\`
 \`\`\`き⃟🦈 Os Build Number: ${dha.user.phone.os_build_number}\`\`\``
-└➤ BellBoTz 。✑ ─────┐`
              reply(teks)
              break  
 //------------------< Owner >-------------------

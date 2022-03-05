@@ -42,7 +42,7 @@ module.exports = welcome = async (dha, anu) => {
 	            buff = await getBuffer(`http://hadi-api.herokuapp.com/api/card/welcome?nama=${anu_user}&descriminator=${time_wel}&memcount=${memeg}&gcname=${encodeURI(mdata.subject)}&pp=${pp_user}&bg=https://i.postimg.cc/rFkw8MpX/IMG-20210807-151325.jpg`)
                 buttons = [{buttonId: `#y`,buttonText:{displayText: 'SIAP BANG'},type:1}]
                 imageMsg = (await dha.prepareMessageMedia((buff), 'imageMessage', {thumbnail: buff})).imageMessage
-                buttonsMessage = { contentText: `${teks}`, footerText: 'Bellu BoTz', imageMessage: imageMsg, buttons: buttons, headerType: 4 }
+                buttonsMessage = { contentText: `${teks}`, footerText: 'Alan Botz🇲🇨', imageMessage: imageMsg, buttons: buttons, headerType: 4 }
                 prep = await dha.prepareMessageFromContent(mdata.id,{buttonsMessage},{})
                 dha.relayWAMessage(prep)
 }
@@ -58,7 +58,7 @@ module.exports = welcome = async (dha, anu) => {
                 buff = await getBuffer(`http://hadi-api.herokuapp.com/api/card/goodbye?nama=${anu_user}&descriminator=${time_wel}&memcount=${memeg}&gcname=${encodeURI(mdata.subject)}&pp=${pp_user}&bg=https://i.postimg.cc/rFkw8MpX/IMG-20210807-151325.jpg`)
                 buttons = [{buttonId: `#t`,buttonText:{displayText: 'GOD BYE'},type:1}]
                 imageMsg = (await dha.prepareMessageMedia((buff), 'imageMessage', {thumbnail: buff})).imageMessage
-                buttonsMessage = { contentText: `${out}`, footerText: 'Bellu BoTz🇨', imageMessage: imageMsg, buttons: buttons, headerType: 4 }
+                buttonsMessage = { contentText: `${out}`, footerText: 'Alan Botz🇲🇨', imageMessage: imageMsg, buttons: buttons, headerType: 4 }
                 prep = await dha.prepareMessageFromContent(mdata.id,{buttonsMessage},{})
                 dha.relayWAMessage(prep)
             }
