@@ -1548,7 +1548,7 @@ teksnya = `*[ PAYMENT ]*
  
 case 'buttonstik':
               gopeynya = 'https://i.ibb.co/kynNYTh/ganteng.jpg'
-              teksnya = `*「💟STICKER MENU💟」*
+              teksnya = `*「STICKER MENU」*
 ⠀ ོ ┌ ꒰⍉꒱─ ➤ STICKER ༘｀⍜´ˎ-
 
 -✎ˀ ${prefix}attp* _teks_
@@ -1590,7 +1590,7 @@ case 'buttonstik':
               break
 case 'buttonpen':
               gopeynya = 'https://i.ibb.co/kynNYTh/ganteng.jpg'
-              teksnya = `*「✍️NULIS MENU✍️」*
+              teksnya = `*「NULIS MENU」*
 ⠀ ོ ┌ ꒰⍉꒱─ ➤ NULIS ༘｀⍜´ˎ-
 *き⃟🦈 ${prefix}nulis*
 └──» ✎BelluBoTz。`
@@ -1598,7 +1598,7 @@ case 'buttonpen':
               break
 case 'buttongame':
               gopeynya = 'https://i.ibb.co/kynNYTh/ganteng.jpg'
-              teksnya = `*「☄️GAME MENU☄️」*
+              teksnya = `*「GAME MENU」*
 ⠀ ོ ┌ ꒰⍉꒱─ ➤ ☄GAME☄️ ༘｀⍜´ˎ-
 -`•..☄️ ${prefix}limitgame
 -`•..☄ ️️ ️️${prefix}slot
@@ -1626,7 +1626,7 @@ case 'buttongame':
               break
 case 'buttongc':
               gopeynya = 'https://i.ibb.co/kynNYTh/ganteng.jpg'
-              teksnya = `*「🌆GROUP MENU🌃」*
+              teksnya = `*「GROUP MENU」*
 ⠀ ོ ┌ ꒰⍉꒱─ ➤🌆GROUP🌃 ༘｀⍜´ˎ-
 -`•..🌑 ${prefix}groupsetting
 -`•..🌒 ${prefix}getbio* _reply_
@@ -1656,7 +1656,7 @@ case 'buttongc':
               break
 case 'buttonwibu':
               gopeynya = 'https://i.ibb.co/kynNYTh/ganteng.jpg'
-              teksnya = `*「🌪️WIBU MENU😈」*
+              teksnya = `*「WIBU MENU」*
 ⠀ ོ ┌ ꒰⍉꒱─ ➤😱WIBU🐲 ༘｀⍜´ˎ-
 -`•..🌠 ${prefix}loli
 -`•..🐲 ${prefix}manga
@@ -1687,7 +1687,7 @@ case 'buttonwibu':
               break
 case 'buttonown':
               gopeynya = 'https://i.ibb.co/kynNYTh/ganteng.jpg'
-              teksnya = `*「❄️OWNER MENU🔥」*
+              teksnya = `*「OWNER MENU」*
 ✦ ╮❄️OWNER🐧
 
 │ˏˋ ☄️ ${prefix}bc* _teks_
