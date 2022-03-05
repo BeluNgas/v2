@@ -880,7 +880,7 @@ dha.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
                   displayText: `⎙𝐷𝑂𝑁𝐴𝑇𝐸⎙`,
                 },
                 type: 1,
-              },{
+              ]);
                imageMsg = (await dha.prepareMessageMedia(fs.readFileSync(`./media/sherlynn.jpg`), 'imageMessage', {thumbnail: fs.readFileSync(`./media/sherlynn.jpg`)})).imageMessage
 
                buttonsMessage = {
