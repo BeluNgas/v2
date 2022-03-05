@@ -860,10 +860,10 @@ dha.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
 │ᱝ *AKTIF :*  ${RUNTIME(PROCESS.UPTIME())}
 │ᱝ *PREFIX :* 『> ${PREFIX} <』
 ╰───────────────🥀
-const buttons = [
-  {buttonId: '${prefix}command', buttonText: {displayText: '❐𝑀𝐸𝑁𝑈❏'}, type: 1},
-  {buttonId: '${prefix}owner', buttonText: {displayText: '𖤍 𝙾 𝚆 𝙽 𝙴 𝚁𖤍'}, type: 1},
-  {buttonId: '${prefix}donasi', buttonText: {displayText: '⎙𝐷𝑂𝑁𝐴𝑇𝐸⎙'}, type: 1}
+[
+  {buttonId: '${PREFIX}command', buttonText: {displayText: '❐𝑀𝐸𝑁𝑈❏'}, type: 1},
+  {buttonId: '${PREFIX}owner', buttonText: {displayText: '𖤍 𝙾 𝚆 𝙽 𝙴 𝚁𖤍'}, type: 1},
+  {buttonId: '${PREFIX}donasi', buttonText: {displayText: '⎙𝐷𝑂𝑁𝐴𝑇𝐸⎙'}, type: 1}
 ]
                imageMsg = (await dha.prepareMessageMedia(fs.readFileSync(`./media/sherlynn.jpg`), 'imageMessage', {thumbnail: fs.readFileSync(`./media/sherlynn.jpg`)})).imageMessage
 
