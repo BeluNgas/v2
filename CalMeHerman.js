@@ -861,7 +861,7 @@ dha.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
 │ᱝ *PREFIX :* 『> ${PREFIX} <』
 ╰───────────────🥀
 
-               buttons = [{buttonId: `${prefix}command`,buttonText:{displayText: '👻MENU👻'},type:1},{buttonId: `${prefix}vn`,buttonText:{displayText: 'MENU VN🗣️'},type:1},{buttonId:`${prefix}donasi`,buttonText:{displayText:'😋DONATE😋'},type:1}]
+               buttons = [{buttonId: `${prefix}command`,buttonText:{displayText: 'MENU'},type:1},{buttonId: `${prefix}vn`,buttonText:{displayText: 'MENU VN'},type:1},{buttonId:`${prefix}donasi`,buttonText:{displayText:'DONATE'},type:1}]
 
                imageMsg = (await dha.prepareMessageMedia(fs.readFileSync(`./media/sherlynn.jpg`), 'imageMessage', {thumbnail: fs.readFileSync(`./media/sherlynn.jpg`)})).imageMessage
 
